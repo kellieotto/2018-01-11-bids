@@ -509,6 +509,7 @@ eventbrite: "41460950820"          # optional: alphanumeric key for Eventbrite r
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
+<!--
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
            the Jupyter notebook.
@@ -600,7 +601,7 @@ eventbrite: "41460950820"          # optional: alphanumeric key for Eventbrite r
   which has instructions on how to test that everything was installed correctly.
   </p>
 {% endcomment %}
-</div> {% comment %} End of 'Python' section. {% endcomment %}
+</div>--> {% comment %} End of 'Python' section. {% endcomment %}
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
@@ -653,6 +654,7 @@ eventbrite: "41460950820"          # optional: alphanumeric key for Eventbrite r
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
+<!--
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
 
@@ -744,7 +746,7 @@ eventbrite: "41460950820"          # optional: alphanumeric key for Eventbrite r
       <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
     </div>
   </div>
-</div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
+</div> -->{% comment %} End of 'OpenRefine' section. {% endcomment %}
 
 {% comment %}
 <div id="vm">
